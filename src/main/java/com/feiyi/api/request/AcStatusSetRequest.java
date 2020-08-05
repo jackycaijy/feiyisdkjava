@@ -28,6 +28,7 @@ public class AcStatusSetRequest extends BaseFeiyiRequest<AcStatusSetResponse> {
 			putOtherTextParam("action",cmd.getAction());
 			putOtherTextParam("temp",cmd.getTemp());
 			putOtherTextParam("onOff",cmd.getOnOff());
+			putOtherTextParam("workMode",cmd.getWorkMode());
 			putOtherTextParam("selectedAc",cmd.getSelectedAc());
 		}
 	}
